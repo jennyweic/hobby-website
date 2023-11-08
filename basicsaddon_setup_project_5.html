@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project structure basic add on</title>
+<style>
+
+body {
+    background: linear-gradient(109.6deg, rgb(251, 250, 225) 11.2%, rgb(206, 240, 185) 47.5%, rgb(100, 163, 111) 100.2%);
+}
+
+.container {
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 25px;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1:hover{
+color: #b1dba5;
+text-shadow: 2px 2px grey;
+transform: scale(1.5);
+}
+
+h2:hover{
+    font-style:italic;
+}
+
+
+img {
+    width:100%;
+    border-radius: 35px;
+}
+
+p{
+font-size: 13px;
+    line-height: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 0 20px;
+}
+
+footer {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+footer:hover{
+color: #b1dba5;
+text-shadow: 1px 1px grey;
+transform: scale(1.5);
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    transition: all 150ms ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+.themeButton {
+font-size: 12px;
+padding: 5px 10px;
+border: 2px solid antiquewhite;
+border-radius: 20px;
+background-color: #b1dba5;
+}
+
+.themeButton:hover{
+    background-color: white;
+    color:#b1dba5;
+}
+
+.readButton {
+font-size: 16px;
+
+padding: 15px;
+border: 3px solid  antiquewhite;
+border-radius: 20px;
+background-color:#b1dba5 ;
+}
+
+.readButton:hover{
+    border: 3px solid  antiquewhite;
+    background-color: white;
+    color:#b1dba5;
+}
+
+.meditate-cover-picture .run-picture .gym-picture .swim-picture{
+    transition: all 250ms ease-in-out;
+    }
+
+.meditate-cover-picture:hover {
+    transform: scale(1.5);
+        filter: contrast (80%);
+}
+.run-picture:hover{
+transform: scale(1.5);
+        filter: contrast (80%);
+} 
+
+.gym-picture:hover{
+transform: scale(1.5);
+        filter: contrast (80%);
+} 
+
+.swim-picture:hover{
+transform: scale(1.5);
+        filter: contrast (80%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.grid-image{
+    object-fit: fill;
+    object-position: center;
+}
+
+.dark{
+    background: linear-gradient(181deg, rgb(2, 0, 97) 15%, rgb(97, 149, 219) 158.5%);
+}
+
+.dark .container{
+background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+}
+
+a:hover {
+  color: blueviolet;
+  text-shadow: 2px 2px greenyellow;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 150ms ease-in-out;
+text-align: center;
+}
+
+
+</style>
+
+  </head>
+  <body>
+    <div class="container">
+    <button class="themeButton">🧘🏻 Theme 🧘🏻</button>
+    <h1>Run, Swim, Gym & Meditate</h1>
+    <h2>My new hobby focusing on fitness improves your wellness</h2>
+    
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/315/original/fitnesscover.png?1697746500" 
+alt="" 
+target="_blank"
+class="meditate-cover-picture"></img>
+
+<div class="grid">
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/320/original/run1.png?1697746585" alt=""target="_blank"
+class="run-picture"></img>
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/317/original/gym1.png?1697746525" alt=""target="_blank"
+class="gym-picture"></img>
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/321/original/swim1.png?1697746794" alt=""target="_blank"
+class="swim-picture"></img>
+</div>
+
+    <h3>Benefits of leveling up your fitness</h3>
+    <p>
+      One of the most obvious benefits of making working out a hobby is the
+      positive impact it can have on your physical health. Regular exercise can
+      help you achieve and maintain a healthy weight, increase your
+      cardiovascular fitness, and build muscular strength and tone.
+      Additionally, incorporating strength training into your routine can help
+      improve your bone density and reduce the risk of osteoporosis.
+      <br /> <br />
+      Working out can also have a significant impact on your mental well-being.
+      Exercise releases endorphins, which can help reduce stress and boost
+      feelings of happiness and well-being. Regular physical activity has also
+      been linked to improved cognitive function and a reduced risk of
+      depression and anxiety.
+     <br /> <br />
+      One of the keys to success when making working out a hobby is to find
+      activities that you enjoy and can stick to consistently. This may involve
+      trying different types of exercise, such as cardio, strength training, or
+      group fitness classes, to find what works best for you. It’s also
+      important to create a plan and schedule for your workouts to help ensure
+      consistency.
+     <br /> <br />
+      Setting goals and tracking your progress can provide a sense of
+      accomplishment and keep you motivated to continue improving. Additionally,
+      finding a workout buddy or joining a fitness community can provide
+      accountability and support.
+      <br /> <br />
+      <strong>Incorporating regular physical activity into your leisure time can help you achieve your fitness goals
+      and improve your overall well-being.</strong>
+    </p>
+    <button class="readButton">
+        <a href=" " target="_blank">Read my fitness journey</a></button>
+    <br>
+    <br>
+     <footer>
+      This project was coded by
+      <strong
+        ><i><a href="https://www.linkedin.com/in/chanwjennifer/" target="_blank"
+          >Jennifer</a
+        ></i></strong>
+      and is on <a href="https://github.com/jennyweic">Github</a> and hosted by Netlify.
+    </footer>
+    <br>
+    </div>
+
+    <script>
+function changeTheme() {
+let body = document.querySelector("body");
+        let button = document.querySelector(".themeButton");
+
+        body.classList.toggle("dark"); //currently dark
+        button.textContent = body.classList.contains("dark")
+          ? "Light" //if it contains dark then word should be light
+          : "Dark"; //if else e.g. light then word should be dark - reverse.
+      }
+    let themeButton = document.querySelector(".themeButton");
+        themeButton.addEventListener("click", changeTheme);
+
+
+
+    //     let body = document.querySelector("body");
+
+    // if(body.classList.contains("dark")){
+    //     body.classList.remove("dark");
+    // } else {
+    //     body.classList.add("dark");
+    // }
+    </script>
+  </body>
+</html>
